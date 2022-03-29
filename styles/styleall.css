@@ -1,0 +1,105 @@
+/* form{
+    width: 85%;
+    
+} */
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    font-size:medium;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+#navbar >img{
+    width: 80px;
+    height: 65px;
+    
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+   margin-top: -10px;
+}
+.na>h5{
+    margin-bottom: -5px;
+}
+.na>p{
+    margin-top: -5px;
+}
+.right>div>a{
+    text-decoration: none;
+    color: #02475b;
+    /* display: flex; */
+    
+}
+hr{
+    position: relative;
+    top: 5px;
+    border: none;
+    height: 1px;
+    background: black;
+    margin-bottom: 15px;
+}
+
+#third{
+    border: 1px solid blue;
+}
+#first{
+    border: 1px solid red;
+    display: flex;
+} 
+#first>div>h1{
+    color: #02475b   
+}
+#first>div>h4{
+    color: #0092c5;
+}
+#first>div+div{
+    /* width: 100%; */
+    float: right;
+}
+.signup >a{
+    padding: 10px;
+    font-size: 60px;
+     display: flex;
+     justify-content: center;
+    
+}
+.cart> a{
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#sixth{
+    background-color: black;
+    padding: 25px;
+    
+}
+
+#sixth>div>h4{
+    color: yellow;
+}
+#sixth>div>div{
+    display: flex;
+    padding: 20px;
+    margin-left: -42px;
+    margin-bottom: -35px;
+    
+    
+}
+#sixth>div>h4{
+    margin-bottom: -20px;
+    margin-top: -20;
+}
+#sixth>div>div+div{
+    margin-bottom: -32px;
+}
+#sixth>div>div>a{
+    text-decoration: none;
+    color: white;
+}
