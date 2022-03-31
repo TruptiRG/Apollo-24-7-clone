@@ -356,9 +356,10 @@ h2+p{
 }
 .top1>h4{
     color:#fc9916;
-    font-size: medium;
+    font-size: small;
     margin-bottom: 20px;
     margin-left: 17px;
+    font-weight: bold;
 }
 .box{
     display: flex;
