@@ -361,6 +361,7 @@ a{
 }
 #middle>div:nth-child(2)>h1{
     font-size: 16px;
+    color: #02475B;
 }
 #middle>div:nth-child(2)>div>div{
     /* border: 1px solid rgb(112, 16, 190); */
@@ -374,6 +375,7 @@ a{
 
     font-size: 14px;
     /* margin: 10px 10px 10px 10px; */
+    color: #02475B;
 }
 #middle>div:nth-child(2)>div>div>img{
 
@@ -381,4 +383,11 @@ a{
     width: 12px;
     margin-top: 15px;
     margin-right: 20px;
+}
+
+#hello>div>div+div{
+    font-size: 14px;
+    width: 80%;
+    color: #02475B;
+    line-height: 20px;
 }
