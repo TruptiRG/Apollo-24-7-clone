@@ -24,28 +24,28 @@
                     <div id="navbar">
                         <a href=""><img class="navimg" src="https://newassets.apollo247.com/images/ic_logo.png" /></a>
                         <div class="right">
-                            <div class="doc" >
+                            <div class="doc" data-hover="Doctors">
                                 <a class="na" href="" > <!--add DOCTORS page here -->
                                     <h5>DOCTORS</h5>
                                     <hr class="hr1" />
                                     <p>Consult Online</p>
                                 </a>
                             </div>
-                            <div class="pharma">
+                            <div class="pharma" data-hover="Pharmacy">
                                 <a class="na" href="" >  <!--add PHARMACY page here-->
                                     <h5>PHARMACY</h5>
                                     <hr class="hr1"/>
                                     <p>Medicines & other products</p>
                                 </a>
                             </div>
-                            <div class="lab test">
+                            <div class="labtest" data-hover="Lab Test">
                                 <a class="na" href="" >  <!--add LAB TEST page here-->   
                                     <h5>LAB TESTS</h5>
                                     <hr class="hr1"/>
                                     <p>Health check-ups</p>
                                 </a>
                             </div>
-                            <div class="covid" >
+                            <div class="covid" data-hover="Covid-19">
                                 <a class="na" href="" >     <!--add COVID-19 page here-->
                                     <h5>COVID-19</h5>
                                     <hr class="hr1"/>
@@ -55,7 +55,7 @@
                             <div class="cart">
                                 <a href=""><i class="fa-solid fa-cart-shopping"></i></a>   <!--add CART here-->
                             </div>
-                            <div class="signup">
+                            <div class="signup" data-hover="Login/Signup">
                                 <a href=""><i class="fa-solid fa-circle-user"></i></a>  <!--add SIGNUP page here-->
                             </div>
                         </div>
@@ -85,167 +85,89 @@
                                 </a></div>
                             </div>
                         </div>
-                        <div><img src="https://newassets.apollo247.com/images/img-doctors@1x.jpg" /></div>
+                        <div class="im"><img class="im" src="https://newassets.apollo247.com/images/img-doctors@1x.jpg" /></div>
                     </div>
-                    <!-- <div id="second-Carousel" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#second-Carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#second-Carousel" data-slide-to="1"></li>
-                            <li data-target="#second-Carousel" data-slide-to="2"></li>
-                            <li data-target="#second-Carousel" data-slide-to="3"></li>
-                            <li data-target="#second-Carousel" data-slide-to="4"></li>
-                            <li data-target="#second-Carousel" data-slide-to="5"></li>
-                            <li data-target="#second-Carousel" data-slide-to="6"></li>
-                            <li data-target="#second-Carousel" data-slide-to="7"></li>
-                            <li data-target="#second-Carousel" data-slide-to="8"></li>
-                            <li data-target="#second-Carousel" data-slide-to="9"></li>
-                            <li data-target="#second-Carousel" data-slide-to="10"></li>
-                            <li data-target="#second-Carousel" data-slide-to="11"></li>
-                            <li data-target="#second-Carousel" data-slide-to="12"></li>
-                            <li data-target="#second-Carousel" data-slide-to="13"></li>
-                            <li data-target="#second-Carousel" data-slide-to="14"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" style="background-image:url(./image1.jpg);">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
+                    <div id="second">
+                        <div id="secondCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="0" class="active"></li>
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="1"></li>
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="2"></li>
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="3"></li>
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="4"></li>
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="5"></li>
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="6"></li>
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="7"></li>
+                                <li data-bs-target="#secondCarousel" data-bs-slide-to="8"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" style="background-image:url(./image1.jpg);">
+                                    <div class="container2">
+                                        <a href="" class="btn btn-lg btn-primay"><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/w/e/web_circle_3.jpg" alt=""></a>   <!--add pharmacy-->
+                                    </div>
+                                </div>    
+                                <div class="carousel-item">
+                                        <div class="container2">
+                                            <a href="" ><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/a/y/ayurveda_offers_web_4.jpg" alt=""></a>   <!--add pharmacy-->
+                                        </div>    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container2">
+                                        <a href="" class="btn btn-lg btn-primay"><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/g/n/gnc-1460x340.jpg" alt=""></a>   <!--add pharmacy-->
+                                    </div>    
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="container2">
+                                        <a href="" class="btn btn-lg btn-primay"><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/s/e/sexual_wellness_offers_web_1.jpg" alt=""></a>   <!--add pharmacy-->
+                                    </div>    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container2">
+                                        <a href="" class="btn btn-lg btn-primay"><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/c/e/cetaphil_offers_web_1.jpg" alt=""></a>     <!--add pharmacy-->
+                                    </div>    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container2">
+                                        <a href="" class="btn btn-lg btn-primay"><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/s/u/super_30_10.jpg" alt=""></a>    <!--add pharmacy-->
+                                    </div>    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container2">
+                                        <a href="" class="btn btn-lg btn-primay"><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/1/4/1460x340-100.jpg" alt=""></a>   <!--add pharmacy-->
+                                    </div>    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container2">
+                                        <a href="" class="btn btn-lg btn-primay"><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/p/n/pn-1460x340.jpg" alt=""></a>   <!--add pharmacy-->
+                                    </div>    
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container2">
+                                        <a href="" class="btn btn-lg btn-primay"><img src="https://newassets.apollo247.com/pub/media/magestore/bannerslider/images/s/e/sexual_wellness_offers_web_1.jpg" alt=""></a>  <!--add pharmacy-->
+                                    </div>    
                                 </div>
                             </div>    
-                            <div class="carousel-item">
-                                    <div class="container2">
-                                        <a href="">
-                                            <img src="" alt="">
-                                            <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                        </a>
-                                    </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                            <div class="carousel-item">
-                                <div class="container2">
-                                    <a href="">
-                                        <img src="" alt="">
-                                        <button class="btn btn-lg btn-primay">TAP HERE</button>
-                                    </a>
-                                </div>    
-                            </div>
-                        </div>    
-                        <a href="#second-Carousel" class="carousel-control-prev" role="button" data-slide="prev">
-                            <span class="sr-only">previous</span>
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        </a>
-                        <a href="#second-Carousel" class="carousel-control-next" role="button" data-slide="next">
-                            <span class="sr-only">next</span>
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        </a>
-                    </div> -->
+                            <a href="#secondCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                                <span class="sr-only">previous</span>
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a href="#secondCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
+                                <span class="sr-only">next</span>
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                    </div>
                     <div id="third" >
                         <div id="cov">
                             <div>
                                 <div>
                                     <h3 id="h3">For COVID-19 Vaccination related queries</h3>
                                     <div class="faq">
-                                        <div class="th" ><a><span><i class="fa-solid fa-comments-question-check"></i></span>FAQs & Articles</a></div>
-                                        <div class="th" ><a><span><i class="fa-solid fa-phone"></i></span>Vaccination Queries</a></div>
-                                        <div class="th" ><a><span><i class="fa-solid fa-message-dots"></i></i></span>Chat with us</a></div>
-                                        <div class="th" ><a><span><i class="fa-solid fa-syringe"></i></span>Cowin Registration</a></div>
+                                        <div class="th" ><a href=""><span><i class="fa-solid fa-comments-question-check"></i></span>FAQs & Articles</a></div>
+                                        <div class="th" ><a href=""><span><i class="fa-solid fa-phone"></i></span>Vaccination Queries</a></div>
+                                        <div class="th" ><a href=""><span><i class="fa-solid fa-message-dots"></i></i></span>Chat with us</a></div>
+                                        <div class="th" ><a href="https://selfregistration.cowin.gov.in/" target="_blank"><span><i class="fa-solid fa-syringe"></i></span>Cowin Registration</a></div>   <!--COWINgov page added-->
                                     </div>
                                 </div>
                             </div>
@@ -267,11 +189,11 @@
                                     <h2 id="h2" >HEALTHH BLOG</h2>
                                     <p class="hel">Exlore healthcare content created every day by our experts.</p>
                                 </div>
-                                <div class="ft" > <a href=""><span><i class="fa-light fa-message-lines"></i></span>Read the latest Articles</a> </div>
+                                <div class="ft" > <a href=""><span><i class="fa-light fa-message-lines"></i></span>Read the latest Articles</a> </div>    <!--add COVID-19 page here-->
                                 <hr class="hrtag" />
                                 <p>YOU CAN ALSO</p>
                                 <div class="also">
-                                    <a href="">
+                                    <a href="https://www.apollo247.com/blog/health-tools" target="_blank">    <!--added-->
                                         <img src="https://newassets.apollo247.com/images/ic_psychologist.svg" alt=""> Hwalth-tools
                                     </a>
                                     <a href="">
@@ -292,7 +214,7 @@
                                 We believe in making healthcare affordable to everyone by combining analytic excellence, 
                                 affordable cost, and extensive research with advanced technology. Apollo 24|7 is a single 
                                 online platform where you have access to a wide range of services such as online pharmacy, 
-                                <a href="">online doctor consultations</a>, and diagnostic <a href="">lab tests at home</a>. We also provide expert solutions 
+                                <a class="parag" href="">online doctor consultations</a>, and diagnostic <a class="parag" href="">lab tests at home</a>. We also provide expert solutions        <!--add DOCTORS & LAB TEST page here-->
                                 for chronic conditions and COVID-care with a secured digital vault, where you can safely upload 
                                 all your medical reports. 
                             </p>
@@ -327,8 +249,8 @@
                                       or clinic, all thanks to technology. With the online facility available, doctor consultations
                                      have become easier, and you can get the right health care. Online doctor consultations
                                     with 4000+ top medical doctors are available at Apollo 24|7. Video call or chat with expert
-                                     doctors from 100+ medical specialties, including | <a href="">Dermatology</a> | <a href="">Gynaecology</a> | <a href="">Paediatrics</a>
-                                     | <a href="">Psychiatry</a> | <a href="">General Physicians</a> | <a href="">Gastroenterology</a> | <a href="">Dietetics</a> | <a href="">Ent Specialists</a> | and more,
+                                     doctors from 100+ medical specialties, including | <a class="parag" href="">Dermatology</a> | <a class="parag" href="">Gynaecology</a> | <a class="parag" href="">Paediatrics</a>      <!--in all "a" tag here add DOCTORS page-->
+                                     | <a class="parag" href="">Psychiatry</a> | <a class="parag" href="">General Physicians</a> | <a class="parag" href="">Gastroenterology</a> | <a class="parag" href="">Dietetics</a> | <a class="parag" href="">Ent Specialists</a> | and more,
                                       in just 15 minutes.
                                 </p>
                                 <p>Benefits of choosing online doctor consultations:</p>
@@ -341,7 +263,7 @@
                                 </ul>
                                 <h4>Apollo Hospitals</h4>
                                 <p>Apollo 24|7 is a part of Apollo Hospitals. 
-                                    <a href="">Apollo Hospitals</a> was established in 1983 by Dr. Prathap C Reddy.
+                                    <a class="parag" href="https://www.apollo247.com/hospitals-and-clinics" target="_blank">Apollo Hospitals</a> was established in 1983 by Dr. Prathap C Reddy.  <!--Hospital page added-->
                                     It incorporates over 10,000 beds across 70 hospitals, over 4000 pharmacies,
                                     172 primary care and diagnostic clinics, and 148 telemedicine facilities spread across 13 countries.
                                     Apollo Hospitals has touched billions of lives by offering exceptional clinical outcomes.
@@ -373,9 +295,9 @@
                                     following a timely treatment. Apollo 24|7 provides blood sample testing at your doorstep conveniently.
                                     You can book lab tests at home and utilise the home-collection facility.
                                     We offer a broad range of diagnostic lab tests such as
-                                    | <a href="">RT-PCR Test</a> | <a href="">Renal Profile Test (KFT, RFT)</a> | <a href="">Hemogram Test</a> | <a href="">Lipid Profile Test</a> |
-                                    <a href="">Thyroid Profile Test (T3 T4 TSH)</a> | <a href="">D-Dimer Test</a> | <a href="">Urine Culture Test</a> | <a href="">Complete Blood Count Test (CBC Test)</a>
-                                    | <a href="">Widal Test</a> | <a href="">Liver Function Test (LFT)</a> | and more.
+                                    | <a class="parag" href="">RT-PCR Test</a> | <a class="parag" href="">Renal Profile Test (KFT, RFT)</a> | <a class="parag" href="">Hemogram Test</a> | <a class="parag" href="">Lipid Profile Test</a> |    <!--here in all "a" tag add LAB TEST page-->
+                                    <a class="parag" href="">Thyroid Profile Test (T3 T4 TSH)</a> | <a class="parag" href="">D-Dimer Test</a> | <a class="parag" href="">Urine Culture Test</a> | <a class="parag" href="">Complete Blood Count Test (CBC Test)</a>
+                                    | <a class="parag" href="">Widal Test</a> | <a class="parag" href="">Liver Function Test (LFT)</a> | and more.
                                 </p>
                                 <p>Top-notch quality diagnostics are critical for the best treatment and personalised patient care.</p>
                                 <p>Here are some simple steps to book a lab test:</p>
@@ -397,7 +319,7 @@
                                     and comprehensive wellness programs especially curated by professionals. 
                                 </p>
                                 <h4>Apollo Prohealth Program </h4>
-                                <p> <a href="">Apollo ProHealth Program</a> is an exclusive end-to-end personalised proactive
+                                <p> <a class="parag" href="">Apollo ProHealth Program</a> is an exclusive end-to-end personalised proactive
                                     healthcare management program that combines predictive risk assessments 
                                     and top-notch quality diagnostics with accurate physician checks.
                                     Approximately 22 million health checks have been done based on this program. 
@@ -410,7 +332,7 @@
                                     <li>Health instructors: to evaluate your health parameters regularly and help you stay on your path to health and wellness.</li>
                                 </ul>
                                 <h4>Health Queries</h4>
-                                <p>Have questions about your health? Find answers to all your <a href="">health queries</a> regarding sexual health,
+                                <p>Have questions about your health? Find answers to all your <a class="parag" href="">health queries</a> regarding sexual health,
                                     gastroenterological disorders, gynaecological issues, dermatological problems, cardiological diseases,
                                     and more from proficient doctors and accredited experts by using the Apollo 24|7 app and website.
                                 </p>      
@@ -553,6 +475,20 @@
             <div id="help">
                 <a href=""><img class="help" src="https://newassets.apollo247.com/images/ic-mascot.png" alt=""></a>
             </div>
+
+            <footer class="footer">
+                <div class="inner-footer">
+                    <div class="footer-links">
+                        <ul>
+                            <li class="footer-items"><a href="#"><i class="fa-solid fa-house"></i><p>HOME</p></a></li>
+                            <li class="footer-items"><a href=""><i class="fa-solid fa-user-doctor"></i><p>DOCTORS</p></a></li>  <!--add doctors-->
+                            <li class="footer-items"><a href=""><i class="fa-solid fa-pills"></i><p>PHARMACY</p></a></li>        <!--add pharmacy-->
+                            <li class="footer-items"><a href=""><i class="fa-solid fa-microscope"></i><p>LAB TEST</p></a></li>    <!--add lab test-->
+                            <li class="footer-items"><a href=""><i class="fa-solid fa-virus-covid"></i><p>COVID-19</p></a></li>    <!--add covid-19-->
+                        </ul>
+                    </div>
+                </div>
+            </footer>
         </form>
     
 </body>

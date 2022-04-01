@@ -1,6 +1,54 @@
 body{
     background-color: gray;
 }
+.doc:hover{
+    font-size: 0;
+}
+.doc:hover::after{
+    content: attr(data-hover);
+    font-size: 11px;
+    line-height: 10px;
+    font-weight: normal;
+    border: 1px solid black;
+    background-color:white;
+    padding: 5px;
+}
+.pharma:hover::after{
+    content: attr(data-hover);
+    font-size: 11px;
+    line-height: 10px;
+    font-weight: normal;
+    border: 1px solid black;
+    background-color:white;
+    padding: 5px;
+}
+.labtest:hover::after{
+    content: attr(data-hover);
+    font-size: 11px;
+    line-height: 10px;
+    font-weight: normal;
+    border: 1px solid black;
+    background-color:white;
+    padding: 5px;
+}
+.covid:hover::after{
+    content: attr(data-hover);
+    font-size: 11px;
+    line-height: 10px;
+    font-weight:normal;
+    border: 1px solid black;
+    background-color:white;
+    padding: 5px;
+}
+.signup:hover::after{
+    content: attr(data-hover);
+    font-size: 11px;
+    line-height: 10px;
+    font-weight: normal;
+    border: 1px solid black;
+    background-color:white;
+    padding: 5px;
+}
 form{
     background-color: rgb(216, 211, 211);
     /* width: 80%; */
@@ -9,6 +57,7 @@ form{
 header{
     position: fixed;
     z-index: 17;
+    margin: auto;
     /* height: 100px; */
 }
 /* #extra{
@@ -78,16 +127,13 @@ hr{
     margin-left: -3px;
 }
 #first{
-    /* border: 1px solid red; */
     display: flex;
-    /* box-sizing: border-box; */
     background-color: white;
     padding: 30px 0px 30px 0px;
 } 
 #ff1{
    padding: 30px;
-   width: 100%;
-   /* margin-top: -60px; */
+   width: 65%;
 }
 #btn{
     display: grid;
@@ -138,14 +184,9 @@ hr{
     margin-bottom: 25px;
     /* margin-top: -30px; */
 }
-#first>div+div{
-    /* width: 100%; */
-    margin-left: 70px;
-    
-}
-/* #first>div+div>img{
+.im{
     width: 100%;
-} */
+}
 #b1{
     background-image:linear-gradient(to right,#2C3E50, #4CA1AF);
     border: none;
@@ -211,16 +252,51 @@ hr{
     /* border: 1px solid black; */
     background-color: white;
 }
-
+#second{
+    /* border: 1px solid black; */
+    padding: 40px;
+    background-color: white;
+}
+.carousel-item{
+    /* background-color: #7777; */
+    height: 200px;
+    color: white;
+    position: relative;
+}
+.container2{
+    position: absolute;
+}
+.container2>a>img{
+    width: 100%;
+    border-radius: 20px;
+    /* height: 100px; */
+}
+.carousel-inner+a{
+    background-color: gray;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: auto;  
+}
+.carousel-inner+a+a{
+    background-color: rgb(87, 84, 84);
+    color: #02475b;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: auto;  
+}
+.carousel-indicators>li{
+    background-color: #0092c5;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
 #third>div{
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    /* border: 1px solid blue; */
-    /* border-radius: 15px; */
-    /* padding: 20px; */
     background-color: white;
 }
 #cov{
-    padding: 40px;
+    padding: 30px;
 }
 #cov>div{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -238,15 +314,15 @@ hr{
     font-weight: bold;
     margin-bottom: 15px;
 }
-
 .mid{
     width: 100%;
 }
-.th{
+.th>a{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     padding: 10px;
     border-radius: 15px;
     color: #fc9916;
+    text-decoration: none;
 }
 #fourth{
     background-color: white;
@@ -350,6 +426,11 @@ h2+p{
     /* scroll-behavior: smooth; */
     color:#02475b;
 }
+.parag{
+    text-decoration: none;
+    color: #02475b;
+    font-weight: bolder;
+}
 #sixth{
     background-color: black;
     padding: 25px; 
@@ -387,4 +468,92 @@ h2+p{
 
 a{
     text-decoration: none;
+}
+footer{
+    visibility: hidden;
+}
+
+/* MEDIUM SCREEN */
+
+@media only screen and (min-width: 421px) and (max-width: 900px){
+    footer{
+        position: relative;
+        /* position: fixed; */
+        visibility: visible;
+        /* margin-bottom: -50px; */
+    }
+    .inner-footer{
+        margin: auto;
+        padding: 10px;
+        background-color:rgb(240, 234, 234);
+        width: 80%;   
+    }
+    .footer-links ul{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: auto;
+    }
+    .footer-items{
+        list-style: none;
+    }
+    .footer-items a{
+        padding: 20px;
+        font-size: 30px;
+        color: #02475b;
+        text-decoration: none;
+    }
+    .footer-items a p{
+        font-size: small;
+        padding: 10px;
+        margin-left: 5px;
+    }
+    .doc{
+        visibility: hidden;
+    }
+    .pharma{
+        visibility: hidden;
+    }
+    .labtest{
+        visibility: hidden;
+    }
+    .covid{
+        visibility: hidden;
+    }
+    .im{
+        visibility: hidden;
+    }
+    #ff1{
+        padding: 30px;
+        width: 100%;
+     }
+    #first{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .also{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .exp{
+        width: 5%;
+    }
+    .kavach{
+        width: 5%;
+    }
+    .ft{
+        float: left;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .faq{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: auto;
+       padding: -10px;
+    }
+    .th a{
+        font-size: small;
+    }
 }
