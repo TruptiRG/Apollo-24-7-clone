@@ -49,7 +49,7 @@
 #one{
     height: 100%;
     width: 65%;
-    border: 1px solid pink;
+/*     border: 1px solid pink; */
     
 }
 #two{
@@ -315,9 +315,33 @@
     width: 100%;
   } */
   
- .first_hover{
+/*  .first_hover{
      border: 1px solid red;
  }
  #top>ul>li>div:hover{
           display: block;
- }
+ } */
+.sub_menu_1{
+    display: none;
+     /* margin: 10px; */
+    
+}
+.sub_menu_2{
+    display:flex;
+    
+}
+.sub_menu_2>div{
+    height: auto;
+    width: 150px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    /* padding: 5px; */
+
+}
+#top ul li:hover .sub_menu_1{
+    display: block;
+    position: absolute;
+    background: #fafafa;
+    margin-top: 20px;
+    margin-left: -15px;
+}
