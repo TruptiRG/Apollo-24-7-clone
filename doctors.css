@@ -2,8 +2,9 @@
     width: 80%;
     margin: auto;
     background-color: #f7f8f5;
-    height: 9000px;
+    height: 8300px;
     padding: 5px;
+    /* border: 2px solid green; */
 }
 body{
     background-color: #f0f1ec;
@@ -16,6 +17,12 @@ i{
     height: 15px;
     width: 15px;
 
+}
+span{
+    color: red;
+}
+#top{
+    margin-top: 100px;
 }
 #top>div{
     height: auto;
@@ -63,6 +70,11 @@ i{
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
+}
+#right>#a+h3+div>div:hover{
+    /* background-color: red; */
+    border: 1px solid green;
+    border-radius: 3px;
 }
 a{
     text-decoration: none;
@@ -390,4 +402,43 @@ a{
     width: 80%;
     color: #02475B;
     line-height: 20px;
+}
+
+@media all and (min-width:81px)  and (max-width:899px){
+    #main{
+        width: 100%;
+    }
+    #top>div{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        display: grid;
+
+    }
+    #right{
+        height: auto;
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+    #left>div:nth-child(3)>div{
+        /* border: 1px solid blue; */
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+
+    }
+    #left>div:nth-child(3)>div>div{
+        height: auto;
+        width: 100%;
+    }
+    #left>div:nth-child(4)>h2+hr+div{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+
+
+}
+@media all and (min-width:81px)  and (max-width:420px){
+
 }
