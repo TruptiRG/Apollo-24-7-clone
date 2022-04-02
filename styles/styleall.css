@@ -224,7 +224,7 @@ hr{
 #set{
     margin-top: 8px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     /* height: 10px; */
 }
 .b4{
@@ -471,6 +471,7 @@ a{
 }
 footer{
     visibility: hidden;
+    position: relative;
 }
 
 /* MEDIUM SCREEN */
@@ -480,7 +481,8 @@ footer{
         position: relative;
         /* position: fixed; */
         visibility: visible;
-        /* margin-bottom: -50px; */
+        /* z-index: 17; */
+        height: 100px;
     }
     .inner-footer{
         margin: auto;
