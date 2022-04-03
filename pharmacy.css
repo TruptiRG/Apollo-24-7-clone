@@ -3,20 +3,25 @@
     width: 80%;
     /* border: 1px solid red; */
     margin: auto;
+    box-sizing: border-box;
 }
 
-
+#container_1{
+    width: 90%; height: auto; margin: auto;
+}
 #top{
     height: 40px;
     width: auto;
+    
     /* border: 1px solid black; */
+    /* padding-top: 15px; */
     margin: auto;
     color: rgba(2,71,91,.7);
     line-height: 14px;
     font-family: ibm_plex_sansregular;
     display: flex;
     box-sizing: border-box;
-    padding: 1px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 
@@ -49,7 +54,11 @@
 #one{
     height: 100%;
     width: 65%;
+ 
+    /* border: 1px solid pink; */
+
 /*     border: 1px solid pink; */
+ master
     
 }
 #two{
@@ -71,16 +80,22 @@
 #imp{
     height: 200px;
     width: 100%;
-    /* border: 1px solid brown; */
+    border: 1px solid brown;
     margin-top: 20px;
     border-radius: 5px;
     overflow: hidden;
 }
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
+#outerbox{
+    height: 200px;
+    width: 100%;
+    border: 1px solid yellow;
     margin: auto;
-  }
+    border-radius: 5px;
+    background-color: rgb(234, 235, 236);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
 
 #sym{
     height: 60px;
@@ -315,12 +330,19 @@
     width: 100%;
   } */
   
+
+ /* .first_hover{
+
 /*  .first_hover{
+
      border: 1px solid red;
- }
+ } */
  #top>ul>li>div:hover{
           display: block;
+ }
+
  } */
+
 .sub_menu_1{
     display: none;
      /* margin: 10px; */
@@ -345,3 +367,103 @@
     margin-top: 20px;
     margin-left: -15px;
 }
+
+
+#nav{
+    /* border: 1px solid yellowgreen; */
+    height: 100px;
+    width: 100%;
+}
+.navimg{
+    width: 100px;
+    height: 90px;
+    padding: 8px; 
+}
+header{
+    position: relative;
+    /* z-index: 17; */
+    margin: auto;
+    /* height: 100px; */
+}
+#nav{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    font-size:small;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    font-family: sans-serif;
+    height: 115px;
+}
+#subnav{
+    display: flex;
+    /* border: 1px solid orange; */
+    height: 115px;
+    
+}
+#subnav>div{
+    box-sizing: border-box;
+    height: auto;
+    width: 110px;
+    /* border: 1px solid purple; */
+    padding: 0px 10px 2px 5px;
+    color: black;
+    font-family: ibm_plex_sansregular;
+    font-size: 14px;
+}
+
+.size{
+    width: 40px;
+    margin-top: 2px;
+}
+.ref{
+   
+    text-decoration: none;
+}
+.col{
+    color: rgba(2,71,91,.7);
+}
+#phar{
+    background-color: rgb(241, 240, 240);
+}
+#preimg{
+    height: 50px;
+    width: 50px;
+}
+#simg{
+    height: 50px ;
+    width: 100px;
+}
+/* for image slide */
+.imgsize{
+    height: 200px;
+    width: 100%;
+    
+}
+#sliderbox{
+    position: relative;
+    width: 800px;
+    animation-name: slideimage;
+    animation-duration: 20s;
+    /* overflow: hidden; */
+   
+
+}
+#sliderbox img
+ {
+    float: left;
+}
+@keyframes slideimage{
+    from 
+    {
+        left: 0px;
+    }
+        
+    to
+    {
+        left:-700px;
+    }  
+}
+
