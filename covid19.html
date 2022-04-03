@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css";>
+   
+</head>
+<body>
+
+    <div class = "con">
+        <div id="menu">
+            <div>
+                <img id="logo" src="https://newassets.apollo247.com/images/ic_logo.png">
+            </div>
+            <div id="doctor"><h4>DOCTORS</h4><hr><span>Consult<br>Online</span></div>
+            <div id="pharmacy"><h4>PHARMACY</h4><hr><span>Medicines&<br>Other Products</span></div>
+            <div id="lab"><h4>LAB TESTS</h4><hr><span>Health<br>Check-up</span></div>
+            <div id="covid"><h4>COVID-19</h4><hr><span>Latest<br>updates</span></div>
+            <div><center><img src = "cart.svg" width="30%"></center> </div>
+            <div><center><img style="padding-top:20px" src="login.png" width="50%"></center></div>
+        </div>
+        
+        <div id="second">
+            <img id="cov" src="https://static.bangkokpost.com/media/content/20210830/c1_2173443_210830094538.jpg">
+        </div>
+        <div id="third">
+            <h2 class="headings">Categories</h2>
+            <div id="cat">
+                <div>
+                    <img src="https://newassets.apollo247.com/cms/2021-02/coronavirus%20(1)%201_0.svg">
+                    <p>Coranavirus Updates</p>
+                </div>
+                <div>
+                    <img src="https://newassets.apollo247.com/cms/2021-02/025%20%20%20Vaccine.svg">
+                    <p>COVID-19 Vaccines</p>
+                </div>
+                <div>
+                    <img src="https://newassets.apollo247.com/cms/2021-12/sexual%20wellness%20(1).svg">
+                    <p>Sexual Welness</p>
+                </div>
+                <div>
+                    <img src="https://newassets.apollo247.com/cms/2021-03/Mental%20Health%20(1)_0.svg">
+                    <p>Mental Health</p>
+                </div>
+                <div>
+                    <img src="https://newassets.apollo247.com/cms/2021-11/Oral%20Care%20svg.svg">
+                    <p>Oral Dental</p>
+                </div>
+                <div>
+                    <img src="https://newassets.apollo247.com/cms/2022-02/Healthcare%20_essentials_1.svg">
+                    <p>Healthcare Essentials</p>
+                </div>
+            </div>
+        </div>
+        <div id="forth">
+            <h2 class="headings">Editor's Pick</h2>
+            <div class="ed1">
+                <div class="ed2">
+                    <img class="editor" src="https://newassets.apollo247.com/cms/2022-02/arthritis1064.jpg" width="100%">
+                    <h4>Watch out for These Early Signs of Arthritis</h4>
+                    <p>By Apollo 24/7, Published on 21 February 2022</p>
+                </div>
+                <div class="ed3">
+                    <div class="ed4">
+                       <div>
+                        <img class="editor" src="https://newassets.apollo247.com/cms/2022-01/booster1064x500.jpg"width="100%" height="100%">
+                       </div>
+                       <div>
+                           <h4 class="h1">Can a Booster Dose Protect Against Omicron</h4>
+                            <p class="p1">By Apollo 24/7, Publihed on 04 January 2022</p>
+                        </div>
+                    </div>
+                    <div class="ed4">
+                        <div>
+                            <img class="editor" src="https://newassets.apollo247.com/cms/2021-12/Intermittent1064x500.jpg" width="100%" height="100%">
+                        </div>
+                        <div>
+                            <h4 class="h1">Does Intermittent Fasting Help with Weight Loss</h4>
+                            <p class="p1">By Apollo 24/7,Published on 21 December 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <center><button class="view">View More</button></center>
+        </div>
+        <div id="health">
+            <h2 class="headings">Health Bytes</h2>
+            <div class="check-up">
+                <img src="https://newassets.apollo247.com/cms/2022-02/cardiohealthbyte.jpg">
+            </div>
+        </div>
+        <div id="sixth">
+            <h3>Visual Stories</h3>
+            <div id ="vis">
+                <div>
+                    <img class="vs" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0YDXrdCoKjg3XsuylZdvI080Cb4bPGoXevTpU_ZphkMyXpIIX">
+                </div>
+                <div>
+                    <img class="vs" src="	https://newassets.apollo247.com/cms/2021-09/Snore-10.jpg">
+                </div>
+                <div>
+                    <img class="vs" src="https://wallpaper.dog/large/20342218.jpg">
+                </div>
+                <div>
+                    <img class="vs" src="data:image/jpeg;base64,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">
+                </div>
+                <div>
+                    <img class="vs" src="https://mobilewallpaperhd.com/wp-content/uploads/2021/03/Nature-Mobile-Wallpaper-HD.jpg">
+                </div>
+                <div>
+                    <img class="vs" src="https://cutewallpaper.org/21/beautiful-wallpaper-for-mobile/Most-Beautiful-Wallpaper-Mobile-Wallpapers-Hd-For-Samsung-in-.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="health">
+            <h2 class="headings">Latest Articles</h2>
+            <div class="lt">
+                <div><img class="image" src="eyess.jpg" width="100%" height="180px">
+                <h5 class="change">Special Days</h5>
+                <h4 class="change">Prevention of Blindness week:Can Glaucoma Make You Blind?</h4>
+                <p class="change">People suffering from glaucoma may not develop severe symptoms in the early stages. However,if left untreated, it can lead to blindness.</p>
+                </div>
+                
+                <div><img class="image" src="autism.jpg" width="100%" height="180px">
+                <h5 class="change">Special Day</h5>
+                <h4 class="change">World Autism Awareness Day: All YOU Need To Know About This Disorder</h4>
+                <p class="change">Autism is a developmental disorder that can affect a child's ability to learn , communicte, and understand. However , therapy and medication can help manage the symptoms effectively</p>
+                </div>
+                
+                <div><img class="image" src="https://www.popsci.com/uploads/2021/05/04/HM_Heat_Stroke.jpg?auto=webp&width=1440&height=960.54919908467" width="100%" height="180px">
+                <h5 class="change">General Health</h5>
+                <h4 class="change">What Causes Heat Stroke?</h4>
+                <p class="change">Exposure to extremely hot weather can result in a heat stoke. It can be life-threatening,therefore requires immediate treatment.</p>
+                </div>
+            </div>
+            <div class="lt1">
+                <div>
+                    <img class="image" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8LVITX2hqgOzuFAYKvGkSRFm2K5FNOD-Qbg&usqp=CAU" width="100%" height="180px">
+                    <h5 class="change">Special Days</h5>
+                    <h4 class="change">World Tuberculosis Day-Everything You Need to Know About TB</h4>
+                    <p class="change">TB is an infectious disease that mainly affects the lungs and can be life-threatening. However, it can be successfully cured if diagnosed and treated properly on time.</p>
+                </div>
+                <div>
+                    <img class="image" src="https://www.muhealth.org/sites/default/files/2021-05/1040-GettyImages-1294409621-2.jpg" width="100%" height="180px">
+                    <h5 class="change">COVID-19 Vaccines</h5>
+                    <h4 class="change">Top thisgs you should know about corbevax: The COVID-19 Vaccine for kids</h4>
+                    <p class="change">Corbevax is a safe and effective COVID-19 vaccine that can be administered to kids in the age group of 12 to 14 years to protect them against the contagious coronavirus.</p>
+                </div>
+                <div>
+                    <img class="image" src="data:image/jpeg;base64,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" width="100%" height="180px">
+                    <h5 class="change">Oral & Dental</h5>
+                    <h4 class="change">What Causes Tooth Discolouration?</h4>
+                    <p class="change">Tooth discolouration can develop due to smoking, excessive tea or coffee consumption, infection or several other reasons Maintaining oral hygiene and frequent dental consultations can help you get rid of it </p>
+                </div>
+            </div>
+        </div>
+        <div id="fom">
+            <div id="photo">
+                <div class="picture">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWPfkMxsC9fNXFtHLyzvgT6MjcxsOiBnDwBQ&usqp=CAU">
+                </div>
+                    <div class="input">
+                        <b><p class="pu">Sign up for our free Health Library Daily Newsletter</p></b>
+                        <p class="puu">Get doctor-approved health tips, news and more</p>
+                        <h2>Email</h2>
+                        <input type="" placeholder="Enter email id">
+                        <button class="btn">Submit</button>
+                    </div>
+            </div>
+            
+        </div>
+        <div class="health">
+            <div class="lt">
+                    <div>
+                    <img class="image" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTqfti57tOfOYZFXejstT4ej7dPxH4YBsroA-SIzJTVzH-K1rJj" width="100%" height="180px">
+                    <h5 class="change">Special Days</h5>
+                    <h4 class="change">Prevention of Blindness week:Can Glaucoma Make You Blind?</h4>
+                    <p class="change">People suffering from glaucoma may not develop severe symptoms in the early stages. However,if left untreated, it can lead to blindness.</p>
+                    </div>
+                    
+                    <div><img class="image" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPHHCMdhbhWFtiZe2JCPYjJhAtArlI2kVUJt7y-yD9TozTw6A5" width="100%" height="180px">
+                    <h5 class="change">Special Day</h5>
+                    <h4 class="change">World Autism Awareness Day: All YOU Need To Know About This Disorder</h4>
+                    <p class="change">Autism is a developmental disorder that can affect a child's ability to learn , communicte, and understand. However , therapy and medication can help manage the symptoms effectively</p>
+                    </div>
+                    
+                    <div><img class="image" src="https://www.popsci.com/uploads/2021/05/04/HM_Heat_Stroke.jpg?auto=webp&width=1440&height=960.54919908467" width="100%" height="180px">
+                    <h5 class="change">General Health</h5>
+                    <h4 class="change">What Causes Heat Stroke?</h4>
+                    <p class="change">Exposure to extremely hot weather can result in a heat stoke. It can be life-threatening,therefore requires immediate treatment.</p>
+                    </div>
+            </div>
+            <div class="lt1">
+                    <div>
+                    <img class="image" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSu-9wSOReVF06jwIdBLMSETVzjGpBp6Dkz1wS8gaEVkWYcUweA" width="100%" height="180px">
+                    <h5 class="change">Special Days</h5>
+                    <h4 class="change">Prevention of Blindness week:Can Glaucoma Make You Blind?</h4>
+                    <p class="change">People suffering from glaucoma may not develop severe symptoms in the early stages. However,if left untreated, it can lead to blindness.</p>
+                    </div>
+                    
+                    <div><img class="image" src="autism.jpg" width="100%" height="180px">
+                    <h5 class="change">Special Day</h5>
+                    <h4 class="change">World Autism Awareness Day: All YOU Need To Know About This Disorder</h4>
+                    <p class="change">Autism is a developmental disorder that can affect a child's ability to learn , communicte, and understand. However , therapy and medication can help manage the symptoms effectively</p>
+                    </div>
+                    
+                    <div><img class="image" src="https://www.popsci.com/uploads/2021/05/04/HM_Heat_Stroke.jpg?auto=webp&width=1440&height=960.54919908467" width="100%" height="180px">
+                    <h5 class="change">General Health</h5>
+                    <h4 class="change">What Causes Heat Stroke?</h4>
+                    <p class="change">Exposure to extremely hot weather can result in a heat stoke. It can be life-threatening,therefore requires immediate treatment.</p>
+                    </div>
+            </div>
+            <center><button class="view">View More</button></center>
+        </div>
+       
+        <div id="last">
+            <center><img src="https://newassets.apollo247.com/images/ic_logo.png" width="100px"></center>
+            <p class = "head">About Apollo 247</p>
+            <div class="black"> 
+                <div class="box1">
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Health Queries</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Returns Policy</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                   
+                        <li><a href="">Apollo 247 Android App</a></li>
+                        <li><a href="">Apollo 247 Sitemap</a></li>
+                        <li><a href="">Online Doctor App</a></li>
+                        <li><a href="">Apollo Pharmacy</a></li>
+                        <li><a href="">Hospitals and Clinics</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                      
+                        <li><a href="">Blogs</a></li> 
+                    </ul>
+                </div>
+                
+            </div>
+            <p class = "head">Services</p>
+            <div class="black"> 
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Online Doctor Consultation</a></li>
+                        <li><a href="">Apollo Circle Membership</a></li>
+                        <li><a href="">Online Medicines</a></li>
+                        <li><a href="">Project Kavach</a></li>
+                        <li><a href="">Cough Scanner</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Covid Vaccine Tracker</a></li>
+
+                        <li><a href="">Covid Vaccine Update</a></li>
+                        <li><a href="">Apollo Pro Health Program/a></li>
+                        <li><a href="">Doctors by Specialty</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Doctors by City</a></li>
+                        <li><a href="">All Doctors List</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class = "head">Top Specialties</p>
+            <div class="black">
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Covid Consultation</a></li>
+                        <li><a href="">Consult Physicians</a></li>
+                        <li><a href="">Consult Dermatologists</a></li>
+                        <li><a href="">Consult Paediatricians</a></li>
+                        <li><a href="">Consult Gynaecologists</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Consult Gastroenterologists</a></li>
+                        <li><a href="">Consult Cardiologists</a></li>
+                        <li><a href="">Consult Dietitians</a></li>
+                        <li><a href="">Consult ENT Specialists</a></li>
+                        <li><a href="">Consult Geriatricians</a></li>
+                         
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Consult Diabetologists</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class = "head">Book Lab Tests at Home</p>
+            <div class="black">
+                <div class="box1">
+                    <ul>
+                        <li><a href="">RT PCR Test At Home</a></li>
+                        <li><a href="">Book Lab Tests at Home</a></li>
+                        <li><a href="">Renal Profile(KFT,RFT Test)</a></li>
+                        <li><a href="">Hemogram Test</a></li>
+                        <li><a href="">Lipid Profile Test</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Thyroid Profile Test(T3 T4 Tsh Test)</a></li>
+                        <li><a href="">D Dimer Test</a></li>
+                        <li><a href="">Urine Culture Test</a></li>
+                        <li><a href="">Complete Blood Count</a></li>
+                        <li><a href="">Widal Test</a></li>
+                         
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Liver Function Test(LFT Test)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class = "head">Product Categories</p>
+            <div class="black">
+                <div class="box1">
+                    <ul>
+                        <li><a href="">View All Brands</a></li>
+                        <li><a href="">Health Care</a></li>
+                        <li><a href="">Personal care</a></li>
+                        <li><a href="">Baby Care</a></li>
+                        <li><a href="">Nutrition</a></li>
+                        <li><a href="">Healthcare Decices</a></li>
+                        <li><a href="">Beauty Skin Care</a></li>
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        
+                        
+                        <li><a href="">Immunity Bosters</a></li>
+                        <li><a href="">Coronavirus Prevention</a></li>
+                        <li><a href="">Diabetes Care</a></li>
+                        <li><a href="">Patanjali Coronil Kit</a></li>
+                        <li><a href="">Mamaeath Products</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class = "head">Top Hospitals</p>
+            <div class = "black">
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Apollo Hospital Jubilee Hills</a></li>
+                        <li><a href="">Apollo Hospitals Greams Rood</a></li>
+                        <li><a href="">Indraprestha Apollo Hospital</a></li>
+                        <li><a href="">Apollo Hospitals Bannerghatta Road</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="box1">
+                    <ul>
+                        <li><a href="">Apollo Hospital-Belapur, Navi Mumbai</a></li>
+                        <li><a href="">Apollo Hospitals canal Circular Road</a></li>
+                        
+                         
+                    </ul>
+                </div>
+            
+            </div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
