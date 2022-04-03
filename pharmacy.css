@@ -54,7 +54,11 @@
 #one{
     height: 100%;
     width: 65%;
+ 
     /* border: 1px solid pink; */
+
+/*     border: 1px solid pink; */
+ master
     
 }
 #two{
@@ -326,12 +330,19 @@
     width: 100%;
   } */
   
+
  /* .first_hover{
+
+/*  .first_hover{
+
      border: 1px solid red;
  } */
  #top>ul>li>div:hover{
           display: block;
  }
+
+ } */
+
 .sub_menu_1{
     display: none;
      /* margin: 10px; */
@@ -356,6 +367,7 @@
     margin-top: 20px;
     margin-left: -15px;
 }
+
 
 #nav{
     /* border: 1px solid yellowgreen; */
@@ -454,3 +466,4 @@ header{
         left:-700px;
     }  
 }
+
