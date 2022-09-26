@@ -5,4 +5,10 @@ It is  India’s largest omnichannel digital healthcare platform with the core b
 Apollo’s legacy of clinical excellence, affordable cost, and forward-looking research with cutting-edge technology 
 to make the best quality healthcare easily accessible to every Indian, online.
 
+# Tech-Stack
+
+- HTML
+- CSS
+- JavaScript
+
 ![apollo_u2](https://user-images.githubusercontent.com/101567088/191050450-0bd4ea62-4549-41c3-afbe-572063d81970.png)
